@@ -1,0 +1,393 @@
+Orange Velvet
+2cl:Bar syrup Almond
+2cl:Cream
+8cl:Orange juice
+8cl:Passion fruit nectar
+
+Mandarinetto
+2cl:Fruit syrup Mandarin
+8cl:Cherry nectar
+8cl:Pear nectar
+
+Summerfeeling
+2cl:Fruit syrup Cranberry
+8cl:Peach nectar
+8cl:Pineapple juice
+
+Green Banana
+2cl:Bar syrup Blue Curacao
+2cl:Fruit syrup Banana
+16cl:Orange juice
+
+Strawberry Kiss
+2cl:Bar syrup Strawberry
+2cl:Cream
+6cl:Passion fruit nectar
+6cl:Mango nectar
+6cl:Orange juice
+
+Green Widow
+1cl:Fruit syrup Banana
+2cl:Bar syrup Blue Curacao
+16cl:Orange juice
+
+Evening Sun
+2cl:Grenadine
+2cl:Cream
+16cl:Banana nectar
+
+Highway Patrol
+2cl:Fruit syrup Guava
+8cl:Pineapple juice
+8cl:Orange juice
+
+Andrea
+2cl:Bar syrup Blue Curacao
+2cl:Bar syrup Almond
+2cl:Lemon juice
+14cl:Orange juice
+
+Summer Fun
+8cl:Cranberry nectar
+6cl:Peach nectar
+6cl:Pineapple juice
+
+Florida Flip
+Egg yolk
+2cl:Fruit syrup Mango
+Grenadine
+10cl:Orange juice
+
+Anitas Love
+4cl:Fruit syrup Banana
+2cl:Cream
+6cl:Pineapple juice
+8cl:Passion fruit nectar
+
+Purple Pineapple
+2cl:Fruit syrup Pineapple
+8cl:Cherry nectar
+8cl:Banana nectar
+
+Fiesta
+2cl:Bar syrup Strawberry
+2cl:Cream
+8cl:Orange juice
+8cl:Passion fruit nectar
+
+Tutti Frutti
+4cl:Fruit syrup Passion fruit
+6cl:Orange juice
+6cl:Pineapple juice
+2cl:Cream
+
+Green Almond
+2cl:Bar syrup Blue Curacao
+2cl:Bar syrup Almond
+8cl:Orange juice
+8cl:Pineapple juice
+
+Cinderella
+1cl:Grenadine
+2cl:Bar syrup Coconut
+2cl:Cream
+8cl:Orange juice
+8cl:Pineapple juice
+
+Rubino
+1cl:Grenadine
+10cl:Red grape juice
+10cl:Blackcurrant nectar
+
+Pineapple Mix
+12cl:Pineapple juice
+6cl:Cranberry nectar
+Bar syrup Almond
+
+Strawberry Cup
+Strawberries
+1cl:Bar syrup Strawberry
+2cl:Bar syrup Coconut
+2cl:Cream
+15cl:Pineapple juice
+
+Athletic
+2cl:Fruit syrup Cranberry
+2cl:Cream
+16cl:Red grape juice
+
+Bananan-Pineapple-Milk
+2cl:Fruit syrup Banana
+1cl:Fruit syrup Coconut
+8cl:Pineapple juice
+10cl:Milk
+
+Grenadine-Milk
+Vanilla ice cream
+2cl:Grenadine
+15cl:Milk
+
+Milkshake
+Strawberries
+Vanilla ice cream
+2cl:Bar syrup Strawberry
+15cl:Milk
+
+Coco-Cherry-Milk
+2cl:Fruit syrup Coconut
+8cl:Milk
+12cl:Cherry nectar
+
+Jogging Mix
+2cl:Fruit syrup Mandarin
+10cl:Red grape juice
+10cl:Milk
+
+Pink Power
+4cl:Fruit syrup Cranberry
+15cl:Buttermilk
+
+Pick Me up
+10cl:Sangrita Classic
+10cl:Milk
+Egg yolk
+Lemon juice
+
+Green Lady
+4cl:Lemon juice
+2cl:Bar syrup Blue Curacao
+4cl:Bar syrup Gin
+
+Flamingo
+2cl:Bar syrup Coconut
+2cl:Bar syrup Strawberry
+8cl:Orange juice
+8cl:Grapefruit juice
+
+Red Fruits
+2cl:Grenadine
+6cl:Red grape juice
+6cl:Cherry nectar
+6cl:Cranberry nectar
+
+Mint Cooler
+2cl:Bar syrup Peppermint
+1cl:Lemon juice
+8cl:Orange juice
+8cl:Passion fruit nectar
+
+Virgin Mary
+Pepper
+Salt
+Tabasco
+Worcestershire sauce
+Lemon juice
+20cl:Tomato juice
+
+Moon Walker
+5cl:Cranberry nectar
+5cl:Orange juice
+5cl:Red grape juice
+5cl:Blackcurrant nectar
+
+Golden Nugget
+2cl:Fruit syrup Lime
+2cl:Lemon juice
+12cl:Passion fruit nectar
+
+Red Orchid
+2cl:Grenadine
+2cl:Fruit syrup Lime
+1cl:Lemon juice
+6cl:Grapefruit juice
+10cl:Orange juice
+
+Southside
+2cl:Bar syrup Coconut
+2cl:Grenadine
+16cl:Grapefruit juice
+
+Singapore Sling
+4cl:Bar syrup Gin
+2cl:Bar syrup Amarenakirsche
+4cl:Lemon juice
+6cl:Pineapple juice
+Soda water
+
+Californian
+2cl:Fruit syrup Mango
+2cl:Fruit syrup Lime
+8cl:Orange juice
+8cl:Grapefruit juice
+
+Cocomint
+2cl:Bar syrup Coconut
+2cl:Bar syrup Peppermint
+1cl:Lemon juice
+8cl:Orange juice
+8cl:Pineapple juice
+
+Strawberry Daiquiri
+Strawberry puree
+3cl:Lemon juice
+1cl:Bar syrup Strawberry
+4cl:Bar syrup Rum
+
+Pussy Foot
+2cl:Grenadine
+6cl:Orange juice
+6cl:Grapefruit juice
+6cl:Pineapple juice
+
+Baby Colada
+4cl:Fruit syrup Coconut
+2cl:Cream
+16cl:Pineapple juice
+
+Blue Passion
+2cl:Bar syrup Blue Curacao
+2cl:Fruit syrup Passion fruit
+16cl:Grapefruit juice
+
+Planter's Punch
+1cl:Grenadine
+2cl:Lemon juice
+6cl:Orange juice
+6cl:Pineapple juice
+4cl:Bar syrup Rum
+
+Yellow Sun
+2cl:Fruit syrup Passion fruit
+6cl:Orange juice
+6cl:Grapefruit juice
+6cl:Banana nectar
+
+Speedy
+2cl:Bar syrup Blue Curacao
+6cl:Passion fruit nectar
+6cl:Grapefruit juice
+6cl:Banana nectar
+
+Pina Colada
+1cl:Bar syrup Coconut
+2cl:Cream
+12cl:Pineapple juice
+4cl:Bar syrup Rum
+
+Pink Planter
+4cl:Bar syrup Rum
+5cl:Banana nectar
+5cl:Cherry nectar
+5cl:Grapefruit juice
+
+Chiquita Punch
+2cl:Fruit syrup Banana
+2cl:Grenadine
+2cl:Cream
+14cl:Orange juice
+
+Swimming Pool
+2cl:Bar syrup Blue Curacao
+2cl:Bar syrup Coconut
+2cl:Cream
+14cl:Pineapple juice
+
+Crazy Coconut
+2cl:Bar syrup Coconut
+6cl:Passion fruit nectar
+6cl:Mango nectar
+6cl:Banana nectar
+
+Tropicana
+2cl:Fruit syrup Lime
+2cl:Fruit syrup Coconut
+8cl:Cherry nectar
+8cl:Banana nectar
+
+Caribbean Fruitpunch
+2cl:Bar syrup Blue Curacao
+2cl:Fruit syrup Lime
+2cl:Lemon juice
+6cl:Passion fruit nectar
+6cl:Pineapple juice
+
+Yellow Fun
+2cl:Fruit syrup Mango
+2cl:Lemon juice
+8cl:Passion fruit nectar
+8cl:Peach nectar
+
+Grenadine Spritzer
+4cl:Grenadine
+Sparkling mineral water
+
+Summer Collins
+3cl:Bar syrup London Dry
+1cl:Bar syrup Cranberry
+2cl:Lemon juice
+4cl:Orange juice
+10cl:Bitter Lemon
+
+Apricot Lady
+2cl:Fruit syrup Apricot
+8cl:Orange juice
+10cl:Bitter Lemon
+
+Crenberry Cooler
+10cl:Cranberry nectar
+5cl:Apple juice
+Lemon juice
+Sparkling mineral water
+
+Sparkling Mango
+2cl:Fruit syrup Mango
+8cl:Passion fruit nectar
+12cl:Schweppes Bitter Orange
+
+Cool Strawberry
+2cl:Bar syrup Strawberry
+1cl:Lemon juice
+8cl:Passion fruit nectar
+10cl:Bitter Lemon
+
+Cherry Tonic
+2cl:Fruit syrup Lime
+10cl:Cherry nectar
+Tonic Water
+
+Tom Collins
+4cl:Lemon juice
+6cl:Bar syrup Gin
+10cl:Soda water
+
+Summer Cooler
+2cl:Fruit syrup Lime
+8cl:Cherry nectar
+Ginger Ale
+
+Red Angle
+2cl:Fruit syrup Lime
+8cl:Red grape juice
+Bitter Lemon
+
+Lime Spritzer
+4cl:Fruit syrup Lime
+Sparkling mineral water
+
+Azzurro Notte
+2cl:Bar syrup Almond
+2cl:Bar syrup Blue Curacao
+4cl:Lemon juice
+Tonic Water
+
+Pink Dream
+2cl:Fruit syrup Cranberry
+8cl:Orange juice
+10cl:Bitter Lemon
+
+Yellow Boxer
+2cl:Fruit syrup Mandarin
+2cl:Lemon juice
+10cl:Orange juice
+10cl:Tonic Water
+
