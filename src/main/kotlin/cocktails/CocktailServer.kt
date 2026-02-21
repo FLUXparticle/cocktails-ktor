@@ -5,8 +5,19 @@ import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
+import org.koin.dsl.*
+import org.koin.ktor.ext.*
+import org.koin.ktor.plugin.*
+
+val appModule = module {
+    single { CocktailDatabase() }
+}
 
 fun Application.module() {
+    install(Koin) {
+        modules(appModule)
+    }
+
     routing {
         get("/health") {
             call.respondText("ok")
@@ -18,12 +29,22 @@ fun Application.module() {
 }
 
 fun Route.apiRoutes() {
+    val database: CocktailDatabase by inject()
+
     get("/zombie") {
         val rezept: Rezept = rezept("Pure White Zombie") {
             zutat("10cl Mineralwasser Medium")
             zutat("10cl Mineralwasser ohne Kohlensäure")
         }
         call.respondText(rezept.toString())
+    }
+    get("/cocktails") {
+        val cocktails = database.loadCocktails()
+        call.respondTextWriter {
+            cocktails.forEach {
+                appendLine(it.toString())
+            }
+        }
     }
 }
 
