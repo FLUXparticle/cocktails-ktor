@@ -1,10 +1,14 @@
 package cocktails
 
+class CocktailLoadContext(val language: String?)
+
 class CocktailDatabase {
 
+    context(CocktailLoadContext)
     fun loadCocktails(): List<Rezept> {
         // Cocktails laden
-        val resource = this::class.java.getResource("/cocktails_de.txt")!!
+        val filename = "/cocktails_${language ?: "de"}.txt"
+        val resource = this::class.java.getResource(filename)!!
         println("resource = $resource")
 
         val rezepte = mutableListOf<Rezept>()
@@ -34,7 +38,9 @@ class CocktailDatabase {
 
 fun main() {
     val database = CocktailDatabase()
-    database.loadCocktails().forEach {
-        println(it)
+    with(CocktailLoadContext("de")) {
+        database.loadCocktails().forEach {
+            println(it)
+        }
     }
 }

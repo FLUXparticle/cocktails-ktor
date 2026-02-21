@@ -39,7 +39,12 @@ fun Route.apiRoutes() {
         call.respondText(rezept.toString())
     }
     get("/cocktails") {
-        val cocktails = database.loadCocktails()
+        val language = call.request.queryParameters["lang"]
+
+        val cocktails = with(CocktailLoadContext(language)) {
+            database.loadCocktails()
+        }
+
         call.respondTextWriter {
             cocktails.forEach {
                 appendLine(it.toString())
