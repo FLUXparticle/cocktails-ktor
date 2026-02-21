@@ -1,7 +1,11 @@
 package cocktails
 
+import kotlinx.serialization.*
+
+@Serializable
 data class Zutat(val name: String)
 
+@Serializable
 data class Rezept(val name: String, val zutaten: List<Zutat>)
 
 class RezeptScope {

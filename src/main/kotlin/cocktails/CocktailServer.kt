@@ -1,8 +1,10 @@
 package cocktails
 
+import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
+import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.dsl.*
@@ -14,6 +16,10 @@ val appModule = module {
 }
 
 fun Application.module() {
+    install(ContentNegotiation) {
+        json()
+    }
+
     install(Koin) {
         modules(appModule)
     }
@@ -45,11 +51,7 @@ fun Route.apiRoutes() {
             database.loadCocktails()
         }
 
-        call.respondTextWriter {
-            cocktails.forEach {
-                appendLine(it.toString())
-            }
-        }
+        call.respond(cocktails)
     }
 }
 
