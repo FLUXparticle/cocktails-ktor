@@ -14,6 +14,7 @@ repositories {
 val ktorVersion = "2.3.12"
 val koinVersion = "3.5.6"
 val kotestVersion = "5.9.1"
+val junitJupiterVersion = "5.8.2"
 
 dependencies {
     implementation("io.ktor:ktor-server-core-jvm:$ktorVersion")
@@ -32,6 +33,11 @@ dependencies {
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-framework-datatest-jvm:$kotestVersion")
     testImplementation("io.ktor:ktor-server-test-host-jvm:$ktorVersion")
+    testImplementation("io.ktor:ktor-client-cio-jvm:$ktorVersion")
+    testImplementation("io.ktor:ktor-client-content-negotiation-jvm:$ktorVersion")
+    testImplementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktorVersion")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion")
 }
 
 kotlin {
