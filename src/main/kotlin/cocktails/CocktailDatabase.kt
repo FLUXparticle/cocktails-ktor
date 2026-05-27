@@ -34,6 +34,14 @@ class CocktailDatabase {
         return rezepte
     }
 
+    context(CocktailLoadContext)
+    fun loadCocktail(id: Int): CocktailResult {
+        val cocktails = loadCocktails()
+        return cocktails.getOrNull(id - 1)
+            ?.let { CocktailResult.Success(it) }
+            ?: CocktailResult.Error("Cocktail with id=$id not found")
+    }
+
 }
 
 fun main() {

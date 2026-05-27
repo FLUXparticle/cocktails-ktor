@@ -1,5 +1,6 @@
 package cocktails
 
+import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
@@ -52,6 +53,26 @@ fun Route.apiRoutes() {
         }
 
         call.respond(cocktails)
+    }
+    get("/cocktails/{id}") {
+        val id = call.parameters["id"]?.toIntOrNull()
+            ?: return@get call.respond(
+                HttpStatusCode.BadRequest,
+                mapOf("error" to "Invalid cocktail id")
+            )
+        val language = call.request.queryParameters["lang"]
+
+        val result = with(CocktailLoadContext(language)) {
+            database.loadCocktail(id)
+        }
+
+        when (result) {
+            is CocktailResult.Success -> call.respond(result.rezept)
+            is CocktailResult.Error -> call.respond(
+                HttpStatusCode.NotFound,
+                mapOf("error" to result.message)
+            )
+        }
     }
 }
 
